@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        
+        <div class="visor">
+            <div class="count"><span id="count"></span></div>
+            <div class="result"><span id="result"></span></div>
+        </div>
+        <input type="button" value="C" class="btn function" onclick="Clear()">
+        <input type="button" value="CA" class="btn function" onclick="ClearAll()">
+        <input type="button" value="÷" class="btn function" onclick="AddFunction('÷')">
+        <input type="button" value="x" class="btn function" onclick="AddFunction('x')">
+        <input type="button" value="7" class="btn number" onclick="AddNumber('7')">
+        <input type="button" value="8" class="btn number" onclick="AddNumber('8')">
+        <input type="button" value="9" class="btn number" onclick="AddNumber('9')">
+        <input type="button" value="-" class="btn function" onclick="AddFunction('-')">
+        <input type="button" value="4" class="btn number" onclick="AddNumber('4')">
+        <input type="button" value="5" class="btn number" onclick="AddNumber('5')">
+        <input type="button" value="6" class="btn number" onclick="AddNumber('6')">
+        <input type="button" value="+" class="btn function" onclick="AddFunction('+')">
+        <input type="button" value="1" class="btn number" onclick="AddNumber('1')">
+        <input type="button" value="2" class="btn number" onclick="AddNumber('2')">
+        <input type="button" value="3" class="btn number" onclick="AddNumber('3')">
+        <input type="button" value="0" class="btn number zero" onclick="AddNumber('0')">
+        <input type="button" value="." class="btn" onclick="AddNumber('.')">
+        <input type="button" value="=" class="btn equal">
+    </section>
+
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
