@@ -18,8 +18,7 @@ function AddFunction(action){
 
     //if no number typed, add 0 in count and add action in final
     if(result.innerHTML == ''){ 
-        visor_count.innerHTML += ` 0 ${action}`
-        result.innerHTML = ''
+        return
     }
     //if no decimal place typed, add 0 in decimal place and add action in final
     else if( result.innerHTML.split('')[result.innerHTML.length - 1] == '.'){
@@ -29,6 +28,20 @@ function AddFunction(action){
     else{
         visor_count.innerHTML += ` ${result.innerHTML} ${action}`
         result.innerHTML = ''
+    }
+}
+
+function AddDot(){
+    let result = document.getElementById('result')
+
+    if(result.innerHTML == ''){
+        result.innerHTML = '0.'
+    }
+    else if( result.innerHTML.split('')[result.innerHTML.length - 1] == '.'){
+        return
+    }
+    else{
+        result.innerHTML += '.'
     }
 }
 
@@ -58,6 +71,7 @@ function Result(){
         result.innerHTML = eval(count)
     }
     else{
+        visor_count.innerHTML += result.innerHTML
         result.innerHTML = ''
         count = visor_count.innerHTML
         visor_count.innerHTML = ''
