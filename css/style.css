@@ -3,6 +3,30 @@ body{
     color: white;
 }
 
+footer{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+h1{
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+    color: #1111fd;
+    transition: color 250ms ease-in-out;
+}
+a:hover{
+    color: #0202ca;
+}
+
 .container{
     position: absolute;
     display: flex;
@@ -41,12 +65,14 @@ body{
 
 #count{
     display: inline;
-    margin-right: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
 }
 
 #result{
     display: inline;
-    margin-right: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
 }
 
 .btn{
