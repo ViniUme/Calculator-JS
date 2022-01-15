@@ -4,8 +4,8 @@ body{
 }
 
 footer{
-    width: 400px;
-    height: 100px;
+    width: 500px;
+    height: 150px;
     position: absolute;
     margin: auto;
     bottom: 0;
@@ -16,6 +16,7 @@ footer{
 
 h1{
     font-family: monospace;
+    font-size: 18px;
 }
 
 a{
