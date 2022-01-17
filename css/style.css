@@ -1,5 +1,5 @@
 body{
-    background-color: #D90000;
+    background-color: #272727;
     color: white;
 }
 
@@ -21,11 +21,11 @@ h1{
 
 a{
     text-decoration: none;
-    color: #1111fd;
+    color: #26a8ff;
     transition: color 250ms ease-in-out;
 }
 a:hover{
-    color: #0202ca;
+    color: #0077ff;
 }
 
 .container{
@@ -46,7 +46,6 @@ a:hover{
     width: 320px;
     height: 100px;
     border: 1px #ffffff solid;
-    background-color: #333333;
     font-family: monospace;
     text-align: right;
 }
