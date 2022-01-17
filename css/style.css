@@ -1,5 +1,5 @@
 body{
-    background-color: #da4646;
+    background-color: #D90000;
     color: white;
 }
 
@@ -93,7 +93,7 @@ a:hover{
 .equal{
     height: 160px;
     margin-top: -80px;
-    background-color: #cc3c3c;
+    background-color: #D90000;
 }
 
 .function{
